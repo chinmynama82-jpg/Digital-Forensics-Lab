@@ -19,6 +19,8 @@ From the **File** menu, select **Capture Memory** to begin volatile memory acqui
 
 **Screenshot:** Capture Memory option
 
+<img width="1296" height="761" alt="image" src="https://github.com/user-attachments/assets/6a30cf85-4340-40cc-9f45-0a41b393c9d0" />
+
 ---
 
 ### Step 2: Configure Memory Capture

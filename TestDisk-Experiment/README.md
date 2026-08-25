@@ -7,7 +7,7 @@
 ## Aim
 
 To analyse a storage device using TestDisk, identify the
-NTFS partition, search the partition structure, and perform
+required partition, verify its file structure, and perform
 partition recovery operations.
 
 ## Tool Used
@@ -23,11 +23,12 @@ The objective of this experiment is to understand how TestDisk
 can be used to:
 
 - Analyse a storage device
-- Identify an NTFS partition
-- Search for partitions
-- Verify the detected partition
-- Perform deeper partition search
-- Write partition information
+- Identify partitions
+- Search for lost or damaged partitions
+- Verify detected partitions
+- List files from a partition
+- Recover partition information
+- Verify the file system structure
 
 ## Safety Precaution
 
@@ -39,98 +40,118 @@ on the actual system disk.
 
 # Procedure
 
-### Step 1: Start TestDisk
+### Step 1: Launch TestDisk
 
-The TestDisk application was opened and the **Create** option
-was selected to create a new log file.
+The TestDisk application was extracted and `testdisk_win`
+was executed as Administrator.
 
-**Output:**
+The **Create** option was selected to create a new log file.
+<img width="1148" height="677" alt="Screenshot 2026-08-25 213719" src="https://github.com/user-attachments/assets/96751c3e-a601-46ec-838e-3eddcf573971" />
 
-![TestDisk Start](screenshots/01_TestDisk_Start.png)
+### Step 2: Select the Storage Device
 
----
-
-### Step 2: Select the Test Disk
-
-TestDisk displayed the available storage devices.
+The available storage devices were displayed by TestDisk.
 
 The **2 GB virtual test disk** was selected and
 **Proceed** was chosen.
+<img width="1127" height="692" alt="Screenshot 2026-08-25 214037" src="https://github.com/user-attachments/assets/2d120f75-a36a-4704-b04d-d483e3d1efef" />
 
-**Output:**
-
-![Disk Selection](screenshots/02_Disk_Selection.png)
-
----
 
 ### Step 3: Select Partition Table Type
 
-TestDisk detected the partition table type.
+The **Intel/PC (MBR)** partition table type was selected
+for the virtual test disk.
+<img width="1132" height="642" alt="Screenshot 2026-08-25 214111" src="https://github.com/user-attachments/assets/dca39a5e-c25b-44d6-9a2c-e6647b101547" />
 
-The **Intel/PC** partition table type was selected for the
-virtual test disk.
 
-**Output:**
+### Step 4: Analyse the Disk
 
-![Partition Table](screenshots/03_Partition_Table.png)
+The **Analyse** option was selected to examine the current
+partition structure and search for partitions.
+<img width="1137" height="642" alt="Screenshot 2026-08-25 214139" src="https://github.com/user-attachments/assets/f5420b7e-7983-448c-a0a5-75b338ddd858" />
 
----
 
-### Step 4: Analyse the Partition Structure
+### Step 5: Perform Quick Search
 
-The **Analyse** option was selected to examine the partition
-structure of the virtual disk.
+The **Quick Search** option was selected.
 
-**Output:**
+TestDisk scanned the virtual disk and identified the
+NTFS partition.
+<img width="1108" height="650" alt="Screenshot 2026-08-25 214206" src="https://github.com/user-attachments/assets/b45c7578-cdf0-401c-ba26-488e4a22c404" />
 
-![Analyse](screenshots/04_Analyse.png)
 
----
+### Step 6: Verify the Partition
 
-### Step 5: Search and Identify the Partition
+The detected partition was displayed as:
 
-The **Quick Search** option was used to search for partitions.
+`L HPFS - NTFS [TestDiskLab]`
 
-The NTFS partition **TestDiskLab** was detected.
+The partition was selected for verification.
+<img width="1131" height="662" alt="Screenshot 2026-08-25 214247" src="https://github.com/user-attachments/assets/19af069d-a48a-43b3-9ade-68c0d8cb7f3b" />
 
-The partition was then verified using the available
-TestDisk options.
 
-**Output:**
 
-![Quick Search](screenshots/05_Quick_Search.png)
+### Step 7: List Files
 
----
+The **P** key was used to list the files present in the
+detected partition.
 
-### Step 6: Perform Deeper Search
+TestDisk displayed the directory structure and available
+files in the partition.
+<img width="1118" height="656" alt="Screenshot 2026-08-25 214446" src="https://github.com/user-attachments/assets/0eebae8e-2ed1-4538-b7c2-7f3a41f6a836" />
 
-The **Deeper Search** option was performed to conduct a more
-thorough search of the virtual disk.
+
+### Step 8: Perform Deeper Search
+
+The **Deeper Search** option was performed to conduct a
+more thorough search of the storage device.
 
 The detected partition was verified again.
+<img width="1113" height="640" alt="Screenshot 2026-08-25 214513" src="https://github.com/user-attachments/assets/47513e8f-1a9d-4430-bf15-109861d9255e" />
 
-**Output:**
 
-![Deeper Search](screenshots/06_Deeper_Search.png)
 
----
+### Step 9: Write Partition Information
 
-## Final Output
+After verifying the correct partition, the **Write** option
+was selected.
 
-The TestDisk partition recovery procedure was completed on
-the 2 GB virtual test disk.
+TestDisk displayed a confirmation message asking whether
+the partition table should be written.
+
+The operation was confirmed using **Y**.
+<img width="1097" height="632" alt="Screenshot 2026-08-25 214916" src="https://github.com/user-attachments/assets/e4fcd525-feb3-42e8-aa99-119d4fd894de" />
+
+
+
+### Step 10: Exit TestDisk
+
+After the partition information was written successfully,
+the TestDisk application was exited using the Quit option.
+
+<img width="1102" height="637" alt="Screenshot 2026-08-25 214944" src="https://github.com/user-attachments/assets/097ee1d9-4e61-4c23-9429-528015cc6804" />
+
+# Final Output
+
+The final TestDisk file-listing screen was used to verify
+that the detected NTFS partition and its file structure
+were accessible.
+<img width="1106" height="643" alt="Screenshot 2026-08-25 214617" src="https://github.com/user-attachments/assets/1189f01a-c0d3-450b-92bf-bff28d9aced2" />
+
 
 ## Result
 
-**TestDisk successfully analysed the virtual disk, identified
-the NTFS partition, performed partition searching, and
-completed the partition recovery operation.**
+**TestDisk successfully analysed the virtual storage device,
+identified the NTFS partition, verified its file structure,
+and completed the partition recovery workflow.**
 
 ## Conclusion
 
-The experiment demonstrated the use of TestDisk for analysing
-a storage device and recovering/validating partition
-information in a controlled forensic environment.
+TestDisk is a useful open-source forensic recovery utility
+for analysing storage devices, identifying partitions,
+searching for lost partitions, listing files, and recovering
+partition information.
 
-The practical was performed on a virtual test disk to prevent
-accidental modification of the actual laptop storage.
+The experiment was safely performed using a virtual test disk
+to avoid modifying the actual laptop storage.
+

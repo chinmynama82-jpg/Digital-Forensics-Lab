@@ -134,6 +134,8 @@ The missing header alone was not considered sufficient evidence of email spoofin
 ### Screenshot
 
 <img width="1917" height="752" alt="image" src="https://github.com/user-attachments/assets/0912e353-7ff5-4560-a3c0-5b9d0e48fb04" />
+<img width="1887" height="560" alt="Screenshot 2026-08-26 205940" src="https://github.com/user-attachments/assets/b3546652-6924-4135-abc2-a157902f5c13" />
+<img width="1891" height="400" alt="Screenshot 2026-08-26 205957" src="https://github.com/user-attachments/assets/73402a64-6a68-48b8-a662-715092084df7" />
 
 
 ---

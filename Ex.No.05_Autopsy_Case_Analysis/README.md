@@ -87,6 +87,8 @@ Use Hash Lookup/Hash Analysis to compare file hashes with known databases.
 <img width="1085" height="676" alt="Screenshot 2026-08-26 232526" src="https://github.com/user-attachments/assets/2f85f417-c8c2-4246-8919-86c92242654e" />
 <img width="1067" height="662" alt="Screenshot 2026-08-26 232600" src="https://github.com/user-attachments/assets/22a8bd77-7323-4bec-bb50-5d9be85aedd7" />
 <img width="878" height="546" alt="Screenshot 2026-08-26 232657" src="https://github.com/user-attachments/assets/5ed73979-0dfb-4c8d-af1c-4711ad0f4454" />
+<img width="1911" height="1006" alt="Screenshot 2026-08-27 000308" src="https://github.com/user-attachments/assets/21d4e103-023c-4fbd-a02f-839605f21380" />
+<img width="1891" height="1013" alt="Screenshot 2026-08-27 000333" src="https://github.com/user-attachments/assets/023065f7-662c-4926-90b3-205a981bd67b" />
 
 ## Observations
 
@@ -112,6 +114,7 @@ Timeline Analysis was performed to visualize forensic events according to their 
 ### Report
 
 An **HTML forensic report** was successfully generated.
+
 
 ## Result
 

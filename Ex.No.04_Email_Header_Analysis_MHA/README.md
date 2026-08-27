@@ -63,6 +63,7 @@ The copied email header was pasted into the message header input area.
 
 The **Analyze headers** option was selected to analyse the email header.
 
+<img width="1077" height="305" alt="image" src="https://github.com/user-attachments/assets/4971684d-55e7-4afb-8e04-f739338e031f" />
 
 
 <img width="1836" height="545" alt="image" src="https://github.com/user-attachments/assets/c2925b1b-5086-403e-af3d-753f93784d44" />

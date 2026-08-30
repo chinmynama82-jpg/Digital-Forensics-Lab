@@ -1,38 +1,46 @@
-EXPERIMENT – 01
-Evidence Acquisition Using AccessData FTK Imager
-AIM
+# EXPERIMENT – 01
 
-To acquire volatile memory and create a forensic image of a physical storage device using AccessData FTK Imager, followed by verification of the acquired evidence.
+## Evidence Acquisition Using AccessData FTK Imager
 
-SOFTWARE REQUIRED
-AccessData FTK Imager
-Windows Operating System
-Adequate storage space for the acquired evidence image
-PROCEDURE
-Step 1: Open FTK Imager
+### AIM
+
+To acquire volatile memory and create a forensic image of a logical storage volume using AccessData FTK Imager, followed by verification of the acquired evidence.
+
+### SOFTWARE REQUIRED
+
+- AccessData FTK Imager
+- Windows Operating System
+- Adequate storage space for the acquired evidence image
+
+## PROCEDURE
+
+### Step 1: Open FTK Imager
 
 Launch AccessData FTK Imager with the required administrative privileges.
 
-From the File menu, select Capture Memory to begin volatile memory acquisition.
+From the **File** menu, select **Capture Memory** to begin volatile memory acquisition.
 
 <img width="1455" height="743" alt="Screenshot 2026-08-30 115157" src="https://github.com/user-attachments/assets/3be890fb-d48d-4adb-8aef-d0104dc3bc44" />
 <img width="342" height="495" alt="Screenshot 2026-08-30 115213" src="https://github.com/user-attachments/assets/29fd53ce-c1d1-40f6-b932-03c4eb2cb5d4" />
 
+---
 
-Step 2: Configure Memory Capture
+### Step 2: Configure Memory Capture
 
 In the Memory Capture window, specify the destination folder and filename for the RAM dump. Select the required options and ensure that sufficient storage space is available.
 <img width="442" height="381" alt="image" src="https://github.com/user-attachments/assets/71c61049-aa50-4d66-bc5c-a6497daa1f39" />
 
+---
 
-Step 3: Start Memory Acquisition
+### Step 3: Start Memory Acquisition
 
 Click Capture Memory to start collecting the contents of physical memory. Wait until the acquisition completes successfully and record the output filename and location.
 
 <img width="610" height="318" alt="Screenshot 2026-08-30 115436" src="https://github.com/user-attachments/assets/e3aac298-16b5-4eb5-ba57-b9828bb937f2" />
 
+---
 
-Step 4: Open Disk Imaging
+### Step 4: Open Disk Imaging
 
 After completing the memory acquisition, select:
 
@@ -41,6 +49,8 @@ File → Create Disk Image
 The disk imaging wizard opens for source selection, image configuration and verification.
 
 <img width="1112" height="716" alt="Screenshot 2026-08-30 120600" src="https://github.com/user-attachments/assets/a2bd564d-7fb9-411b-bcc6-26d2130d11d1" />
+
+---
 
 ## Step 5: Select and Configure the Evidence Source
 
@@ -145,7 +155,6 @@ These image segments together represent the acquired forensic image.
 # Result
 
 The volatile memory acquisition and logical-drive forensic imaging procedures were successfully performed using **AccessData FTK Imager**.
-<img width="1917" height="983" alt="Screenshot 2026-08-30 123959" src="https://github.com/user-attachments/assets/1edf983e-1a5f-441c-a519-80bdbc0fdf70" />
 
 
 The forensic image of the **D:\ logical drive** was successfully created and verified. The **MD5 and SHA1 hash verification results were Match**, and **no bad blocks were found in the image**, confirming the integrity of the acquired evidence.

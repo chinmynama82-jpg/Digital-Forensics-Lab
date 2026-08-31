@@ -31,6 +31,7 @@ Install and open Autopsy on the system.
 3. Enter the case name and case location.
 4. Enter the case number and examiner details.
 5. Click **Next**.
+<img width="698" height="388" alt="image" src="https://github.com/user-attachments/assets/4fa66bd0-53dc-4933-95c4-69df8d5d08a6" />
 
 ### 3. Adding a Data Source
 

@@ -21,9 +21,9 @@ To analyze a forensic disk image using The Sleuth Kit and examine the partition 
 
 The `mmls` command was used to identify the partition structure of the forensic disk image.
 
+**Command:**
 
-
-```cmd
+cmd
 mmls "C:\Users\ASUS\Downloads\4Dell Latitude CPI.E01"
 
 <img width="1481" height="762" alt="Screenshot 2026-09-22 201054" src="https://github.com/user-attachments/assets/553438ad-cc59-427a-80b1-67158003d610" />

@@ -82,6 +82,6 @@ The image was displayed successfully, confirming that the file was recovered fro
 <img width="1486" height="758" alt="Screenshot 2026-09-22 202035" src="https://github.com/user-attachments/assets/ee377998-b639-40b1-847f-03fb7a303ac5" />
 <img width="960" height="1017" alt="Screenshot 2026-09-22 202117" src="https://github.com/user-attachments/assets/919994ae-4ff6-49ff-ab24-1b139b3b33fb" />
 
-Result
+### Result
 
 The forensic disk image was successfully analyzed using The Sleuth Kit. The partition structure and NTFS file system were examined, files and directories were listed, file metadata was analyzed, and airplane.bmp was successfully recovered.

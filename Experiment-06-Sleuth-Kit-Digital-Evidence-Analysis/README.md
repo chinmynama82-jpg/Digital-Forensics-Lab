@@ -23,30 +23,30 @@ The `mmls` command was used to identify the partition structure of the forensic 
 
 **Command:**
 
-cmd
+```cmd
 mmls "C:\Users\ASUS\Downloads\4Dell Latitude CPI.E01"
-
+```
 <img width="1481" height="762" alt="Screenshot 2026-09-22 201054" src="https://github.com/user-attachments/assets/553438ad-cc59-427a-80b1-67158003d610" />
 
-Step 2 – Analyze File System
+### Step 2 – Analyze File System
 
 The fsstat command was used to obtain detailed information about the file system.
 
 Command:
-
+```cmd
 fsstat -o 63 "C:\Users\ASUS\Downloads\4Dell Latitude CPI.E01"
-
+```
 
 <img width="1901" height="1015" alt="Screenshot 2026-09-22 201145" src="https://github.com/user-attachments/assets/643c2205-6c1a-482a-b9d8-6accd7ef675f" />
 
-Step 3 – List Files and Directories
+### Step 3 – List Files and Directories
 
 The fls command was used to list files and directories available in the forensic disk image.
 
 Command:
-
+```cmd
 fls -o 63 -r "C:\Users\ASUS\Downloads\4Dell Latitude CPI.E01"
-
+```
 The command displayed the files and directories present in the file system. The required file airplane.bmp was identified from the file listing.
 
 <img width="1901" height="1018" alt="Screenshot 2026-09-22 201410" src="https://github.com/user-attachments/assets/660cad84-7ffc-40fd-bd0d-d36d7242c985" />
@@ -60,20 +60,20 @@ The `istat` command was used to examine the metadata of the identified file thro
 
 ```cmd
 istat -o 63 "C:\Users\ASUS\Downloads\4Dell Latitude CPI.E01" 5665
-
+```
 ### Step 5 – Recover the Identified File
 
 The `icat` command was used to recover the identified file from the forensic disk image using its MFT entry number.
 
 **Command:**
 
-```cmd
-icat -o 63 "C:\Users\ASUS\Downloads\4Dell Latitude CPI.E01" 5665 > "C:\Users\ASUS\Downloads\DF_Output\airplane.bmp"
-
+```cmd 
+icat -o 63 "C:\Users\ASUS\Downloads\4Dell Latitude CPI.E01" 5665 > "C:\Users\ASUS\Downloads\DF_Output\airplane.bmp" 
+```
 <img width="941" height="81" alt="Screenshot 2026-09-22 201542" src="https://github.com/user-attachments/assets/b01057ab-9746-4887-be58-e7fb41bc9914" />
 
 
-Step 6 – Verify the Recovered File
+### Step 6 – Verify the Recovered File
 
 The recovered airplane.bmp file was located in the DF_Output folder and opened using Windows File Explorer.
 

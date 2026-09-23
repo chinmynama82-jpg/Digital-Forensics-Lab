@@ -64,7 +64,8 @@ Open a new Command Prompt and execute:
 ```cmd
 adb version
 ```
-Figure 1: Platform Tools Added to PATH
+<img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/03aa6439-60a4-4b68-9dfb-c3fe73e1f311" />
+<img width="1875" height="839" alt="image" src="https://github.com/user-attachments/assets/7a094fe8-4616-4b8c-a5a7-d095d45e55b4" />
 
 
 ## STEP 3 — Install Google USB Driver
@@ -83,6 +84,7 @@ Open Command Prompt and execute:
 ```cmd
 adb devices
 ```
+<img width="1880" height="837" alt="image" src="https://github.com/user-attachments/assets/ff8d2880-da75-4ac9-b453-7fcd213768d8" />
 
 
 ## STEP 4 — Enable Developer Options on the Phone
@@ -126,7 +128,8 @@ adb install "C:\ForensicLab\aflogical-ose\AFLogical-OSE.apk"
 ```
 4. Wait for the installation to complete.
 5. The following message indicates successful installation:
-Figure 3: AFLogical OSE Installation
+<img width="2172" height="319" alt="ChatGPT Image Sep 24, 2026, 12_40_38 AM" src="https://github.com/user-attachments/assets/a0b58c36-b809-4c30-b5b5-26db88abea26" />
+
  
 6. Check the Android device and verify that AFLogical OSE is installed.
 
@@ -159,6 +162,7 @@ Procedure
 ```cmd
 mkdir C:\ForensicLab\output
 ```
+<img width="2171" height="363" alt="ChatGPT Image Sep 24, 2026, 12_42_48 AM" src="https://github.com/user-attachments/assets/43ccc254-924d-417d-96fe-fb867f6dc26c" />
 2. Copy the extracted forensic data using:
 ```cmd
 adb pull /sdcard/forensics/ "C:\ForensicLab\output"
@@ -168,7 +172,9 @@ adb pull /sdcard/forensics/ "C:\ForensicLab\output"
 ```cmd
 dir "C:\ForensicLab\output"
 ```
-Figure 4: Extracted Forensic Evidence
+
+
+<img width="1837" height="856" alt="image" src="https://github.com/user-attachments/assets/fd8f754a-ecaf-48e0-8fce-34fe836fcec4" />
 
 
 ## STEP 9 — Verify Integrity Using SHA-256

@@ -31,6 +31,7 @@ The following details were visible:
 - Description
 - Company Name
 
+<img width="982" height="742" alt="image" src="https://github.com/user-attachments/assets/7dff9c8c-9b9e-4f3c-98b3-5648a9bf6f8e" />
 
 
 ---
@@ -57,9 +58,8 @@ The following information was observed:
 - **Command Line:** `C:\Windows\system32\svchost.exe -k DcomLaunch -p`
 - **Parent:** `services.exe (1732)`
 
-**Figure 2: Properties of the selected svchost.exe process**
+<img width="558" height="760" alt="image" src="https://github.com/user-attachments/assets/9f516cd6-7b2e-43ad-8b09-1684b9e9ddac" />
 
-📷 **[KEEP YOUR svchost.exe PROPERTIES SCREENSHOT HERE]**
 
 ---
 
@@ -73,9 +73,7 @@ The result displayed:
 
 This indicates that the selected executable was verified as being published by Microsoft Windows.
 
-**Figure 3: Verification of the Microsoft Windows digital signature**
-
-📷 **[KEEP YOUR VERIFIED MICROSOFT WINDOWS PUBLISHER SCREENSHOT HERE]**
+<img width="556" height="761" alt="image" src="https://github.com/user-attachments/assets/de4d6d06-9cff-4c21-8511-6b4d53755364" />
 
 ---
 
@@ -93,9 +91,8 @@ The following services were observed:
 | Power | Power | `C:\Windows\system32\umpo.dll` |
 | SystemEventsBroker | System Events Broker | `C:\Windows\System32\SystemEventsBrokerServer.dll` |
 
-**Figure 4: Services registered under the selected svchost.exe process**
+<img width="831" height="287" alt="image" src="https://github.com/user-attachments/assets/d75e18e0-4de2-458f-b3fa-0380b27d2818" />
 
-📷 **[KEEP YOUR SERVICES TAB SCREENSHOT HERE]**
 
 ---
 
@@ -112,9 +109,8 @@ The observed values for `svchost.exe` were approximately:
 - **Description:** Host Process for Windows Services
 - **Company Name:** Microsoft Corporation
 
-**Figure 5: CPU and memory usage of the selected process**
+<img width="1037" height="738" alt="image" src="https://github.com/user-attachments/assets/9a5f577e-6c30-45e4-a5c2-06b688becbee" />
 
-📷 **[KEEP YOUR MAIN WINDOW CPU/MEMORY SCREENSHOT HERE]**
 
 ---
 
@@ -143,9 +139,8 @@ The Process Explorer context menu was opened for the selected process. The follo
 - Suspend
 - Create Dump
 
-**Figure 6: Process control options available in Process Explorer**
+<img width="978" height="406" alt="Screenshot 2026-09-23 200516" src="https://github.com/user-attachments/assets/bcbb6817-abc0-4104-9f17-724e780e8578" />
 
-📷 **[KEEP YOUR KILL PROCESS MENU SCREENSHOT HERE – OPTIONAL]**
 
 The **Kill Process** option was not used because the examined `svchost.exe` process did not show any obvious malicious or suspicious indicators. The process had a valid Microsoft Windows publisher signature, was located in the Windows System32 directory, and was associated with standard Windows services. Therefore, terminating the process was not necessary for this experiment.
 

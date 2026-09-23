@@ -145,12 +145,7 @@ were accessible.
 identified the NTFS partition, verified its file structure,
 and completed the partition recovery workflow.**
 
-## Conclusion
 
-TestDisk is a useful open-source forensic recovery utility
-for analysing storage devices, identifying partitions,
-searching for lost partitions, listing files, and recovering
-partition information.
 
 The experiment was safely performed using a virtual test disk
 to avoid modifying the actual laptop storage.

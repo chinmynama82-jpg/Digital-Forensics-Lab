@@ -109,7 +109,7 @@ The observed values for `svchost.exe` were approximately:
 - **Description:** Host Process for Windows Services
 - **Company Name:** Microsoft Corporation
 
-<img width="1037" height="738" alt="image" src="https://github.com/user-attachments/assets/9a5f577e-6c30-45e4-a5c2-06b688becbee" />
+<img width="1032" height="740" alt="image" src="https://github.com/user-attachments/assets/d59badc3-b885-4f4c-a9e9-cccd4d4a5f6f" />
 
 
 ---

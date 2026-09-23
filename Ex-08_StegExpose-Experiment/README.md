@@ -135,17 +135,22 @@ The default StegExpose detection threshold of **0.2** was used for the analysis.
 
 | Image | Fusion Score | Threshold | Interpretation | Above Stego Threshold? |
 |---|---:|---:|---|---|
-| `clean_image.png` | Not generated | 0.2 | Clean test image | — |
+| `clean_image.png` | Not generated | 0.2 | Reference clean image | — |
 | `image 2.png` | **0.066712** | 0.2 | Clean — below 0.2 | **FALSE** |
 | `images 3.png` | **0.018933** | 0.2 | Clean — below 0.2 | **FALSE** |
 
-The Fusion scores for `image 2.png` and `images 3.png` are below the default threshold of **0.2**. According to the threshold interpretation used in this experiment, scores below 0.2 fall within the **clean image** range.
+### Fusion Score Interpretation
 
-The StegExpose report therefore shows:
+- **Less than 0.2:** Image is clean (no hidden data).
+- **0.2 – 0.3:** Possibly some hidden data.
+- **Above 0.3:** Likely that steganography is present.
+
+The Fusion scores obtained for `image 2.png` and `images 3.png` are **0.066712** and **0.018933**, respectively. Both values are below **0.2** and therefore fall within the clean-image range according to the interpretation used in this experiment.
+
+The StegExpose report shows:
 
 ```text
 Above stego threshold? = FALSE
-
 
 
 

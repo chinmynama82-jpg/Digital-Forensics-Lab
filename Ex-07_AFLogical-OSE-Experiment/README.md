@@ -64,7 +64,7 @@ Open a new Command Prompt and execute:
 ```cmd
 adb version
 ```
-<img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/03aa6439-60a4-4b68-9dfb-c3fe73e1f311" />
+<img width="1254" height="1173" alt="ChatGPT Image Sep 24, 2026, 12_47_59 AM" src="https://github.com/user-attachments/assets/66d670b1-eaa7-4ee5-8c0a-c752eaac677a" />
 <img width="1875" height="839" alt="image" src="https://github.com/user-attachments/assets/7a094fe8-4616-4b8c-a5a7-d095d45e55b4" />
 
 
